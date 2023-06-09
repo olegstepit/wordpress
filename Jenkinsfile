@@ -23,7 +23,7 @@ pipeline  {
         stage("Build") {
             steps {
                 sh '''
-                cd /home/word/
+                cd /home/word/wordpress/word/
                 docker build -t oleg222/word .
                 '''
             }

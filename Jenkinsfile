@@ -32,7 +32,7 @@ pipeline  {
             steps {
                 sh '''
                 docker run \
-                --name ansible2 \
+                --name word \
                 -d oleg222/word
                 '''
             }

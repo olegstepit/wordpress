@@ -15,7 +15,7 @@ pipeline  {
         stage("Git clone") {
             steps {
                 sh '''
-                cd /home/an2/
+                cd /home/word/
                 git clone https://github.com/olegstepit/ansible.jen.git   
                 '''
             }

@@ -16,7 +16,7 @@ pipeline  {
             steps {
                 sh '''
                 cd /home/word/
-                git clone https://github.com/olegstepit/ansible.jen.git   
+                git clone  https://github.com/olegstepit/wordpress.git   
                 '''
             }
         }    
